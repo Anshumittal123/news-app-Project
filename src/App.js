@@ -10,7 +10,7 @@ export default class App extends Component {
     return (
       <>
         <BrowserRouter>
-        <Navbar/>
+        <Navbar onSearch={this.handleSearch}/>
         <Routes>
           <Route exact path='/' element={<News key="general" pageSize={9} country='in' category="general"/>}></Route>
           <Route exact path='/business' element={<News key="business" pageSize={9} country='in' category="business"/>}></Route>

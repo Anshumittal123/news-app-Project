@@ -40,3 +40,7 @@
 .li-item:hover{
   font-weight: 700;
 }
+
+.header{
+  padding-top: 70px;
+}
